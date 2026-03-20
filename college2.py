@@ -33,6 +33,6 @@ if history == "yes":
     electives["history"] += 3
 
 sorted_electives = sorted(electives.items(), key = lambda x: x[1], reverse= True)
-print("\n3 best Recommended electives are: \n")
+print("\n3 best Recommended electives are: ")
 for subject, score in sorted_electives[:3]:
     print(f"{subject} - Score: {score}")
