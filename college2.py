@@ -19,7 +19,7 @@ if money == "yes":
     electives["finance"] += 2
 
 if creativity == "yes":
-    electives["design"] += 3
+    electives["design"] += 5
     electives["marketing"] += 1
 
 if tech == "yes":
